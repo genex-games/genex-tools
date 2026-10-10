@@ -19,7 +19,7 @@
         "url": "https://genex.games"
       },
       "homepage": "https://genex.games/docs",
-      "repository": "https://github.com/genex-games/genex",
+      "repository": "https://github.com/genex-games/genex-tools",
       "license": "MIT",
       "keywords": ["game-dev", "three.js", "3d", "assets", "multiplayer", "publishing", "claude-code", "codex", "cursor"],
       "category": "development"
