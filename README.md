@@ -31,13 +31,13 @@ The agent installs the Genex skill into your project, signs you in once in the b
 | Path | What it is |
 | --- | --- |
 | [`skills/genex/SKILL.md`](skills/genex/SKILL.md) | The Genex skill, byte-identical to the one served at [genex.games/SKILL.md](https://genex.games/SKILL.md). Mirrored automatically from the product on every release; not edited here. |
-| [`.claude-plugin/`](.claude-plugin/) | The Claude Code plugin marketplace manifest, so `/plugin marketplace add genex-games/genex` works. |
+| [`.claude-plugin/`](.claude-plugin/) | The Claude Code plugin marketplace manifest, so `/plugin marketplace add genex-games/genex-tools` works. |
 | [`assets/`](assets/) | The wordmark, the mark and the share card. |
 
 ## Install by directory
 
-- **Claude Code plugin:** `/plugin marketplace add genex-games/genex`, then `/plugin install genex@genex`.
-- **skills CLI:** `npx skills add genex-games/genex`.
+- **Claude Code plugin:** `/plugin marketplace add genex-games/genex-tools`, then `/plugin install genex@genex`.
+- **skills CLI:** `npx skills add genex-games/genex-tools`.
 - **Any other agent:** copy [`skills/genex/SKILL.md`](skills/genex/SKILL.md) into your project's skills folder, or just paste the setup line above.
 
 ## How Genex works
